@@ -1,5 +1,5 @@
 {
-    "name": "drupal.project/composer-boilerplate",
+    "name": "dreamproduction/composer-boilerplate",
     "description": "DP boilerplate for Drupal 8 projects.",
     "type": "package",
     "license": "GPL-2.0+",
