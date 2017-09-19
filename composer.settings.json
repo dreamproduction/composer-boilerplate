@@ -1,0 +1,118 @@
+{
+    "provide": {
+        "drupal/lightning": "*"
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "secure-http": false,
+        "platform": {
+            "php": "7"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "http://packages.dreamproduction.com"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "scripts": {
+        "post-install-cmd": [
+            "@composer drupal-scaffold"
+        ],
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+    },
+    "extra": {
+        "enable-patching": true,
+        "drupal-scaffold": {
+            "initial": {
+                "sites/default/default.services.yml": "sites/default/services.yml",
+                "sites/default/default.settings.php": "sites/default/settings.php"
+            }
+        },
+         "installer-types": [
+            "bower-asset",
+            "npm-asset"
+        ],
+        "installer-paths": {
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "docroot/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "docroot/profiles/contrib/{$name}": [
+                "type:drupal-profile"
+            ],
+            "docroot/profiles/custom/{$name}": [
+                "type:drupal-custom-profile"
+            ],
+            "docroot/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "docroot/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset",
+                "type:npm-asset"
+            ],
+            "drush/contrib/{$name}": [
+               "type:drupal-drush"
+            ]
+        },
+        "patches": {
+            "drupal/core": {
+                "2652138 - ImageFormatter does not support SVGs":
+                "https://www.drupal.org/files/issues/2652138-41.patch",
+                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
+                "https://www.drupal.org/files/issues/1356276-360.patch",
+                "2880374 - Experimental modules should not have warnings after being installed":
+                "https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch",
+                "2880445 - Config sync should not throw a warning when not being writable":
+                "https://www.drupal.org/files/issues/2880445-remove-config-write-warning-2.patch",
+                "2869592 - Disabled update module shouldn't produce a status report warning":
+                "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
+                "https://www.drupal.org/files/issues/2885441-2.patch"
+            }
+        },
+        "scripts": {
+            "blt-alias": "blt install-alias -y --ansi",
+            "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+            "nuke": [
+                "rm -rf vendor composer.lock docroot/core docroot/modules/contrib docroot/profiles/contrib docroot/themes/contrib",
+                "@composer clearcache --ansi",
+                "@composer install --ansi"
+            ],
+            "install-phantomjs": [
+                "rm -rf vendor/bin/phantomjs",
+                "PhantomInstaller\\Installer::installPhantomJS"
+            ]
+        }
+    },
+    "require": {
+        "cweagans/composer-patches": "^1.5.0",
+        "drupal/core": "~8.3.1",
+        "drupal.project/media_management_complex": "*",
+        "drupal/config_update": "^1.1",
+        "drupal/metatag": "^1.0",
+        "drupal/token": "^1.0",
+        "drupal-composer/drupal-scaffold": "^2.0.0",
+        "drupal/pathauto": "^1.0",
+        "drupal/contact_storage": "^1.0",
+        "drupal/diff": "^1.0",
+        "oomphinc/composer-installers-extender": "^1.1"
+    }
+}
