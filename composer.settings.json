@@ -63,7 +63,7 @@
             "docroot/themes/custom/{$name}": [
                 "type:drupal-custom-theme"
             ],
-            "docroot/libraries/{$name}": [
+            "docroot/libraries/contrib/{$name}": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
@@ -105,6 +105,7 @@
     "require": {
         "cweagans/composer-patches": "^1.5.0",
         "drupal/core": "~8.3.1",
+        "drupal/devel": "^1.0",
         "drupal.project/media_management_complex": "*",
         "drupal/config_update": "^1.1",
         "drupal/metatag": "^1.0",
