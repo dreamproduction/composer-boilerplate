@@ -25,9 +25,19 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "@composer drupal-scaffold"
+            "@composer run-script drupal-scaffold"
         ],
-        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold"
+        "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+        "blt-alias": "blt install-alias -y --ansi",
+        "nuke": [
+            "rm -rf vendor composer.lock docroot/core docroot/modules/contrib docroot/profiles/contrib docroot/themes/contrib",
+            "@composer clearcache --ansi",
+            "@composer install --ansi"
+        ],
+        "install-phantomjs": [
+            "rm -rf vendor/bin/phantomjs",
+            "PhantomInstaller\\Installer::installPhantomJS"
+        ]
     },
     "extra": {
         "enable-patching": true,
@@ -87,19 +97,6 @@
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
                 "https://www.drupal.org/files/issues/2885441-2.patch"
             }
-        },
-        "scripts": {
-            "blt-alias": "blt install-alias -y --ansi",
-            "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
-            "nuke": [
-                "rm -rf vendor composer.lock docroot/core docroot/modules/contrib docroot/profiles/contrib docroot/themes/contrib",
-                "@composer clearcache --ansi",
-                "@composer install --ansi"
-            ],
-            "install-phantomjs": [
-                "rm -rf vendor/bin/phantomjs",
-                "PhantomInstaller\\Installer::installPhantomJS"
-            ]
         }
     },
     "require": {
