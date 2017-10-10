@@ -96,6 +96,10 @@
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
                 "https://www.drupal.org/files/issues/2885441-2.patch"
+            },
+            "acquia/blt": {
+                "Restricts PHPCS to check for modified files only" :
+                "https://github.com/dreamproduction/composer-boilerplate/patches/phpcs_fix.patch"
             }
         }
     },
