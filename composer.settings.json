@@ -84,8 +84,6 @@
         },
         "patches": {
             "drupal/core": {
-                "2652138 - ImageFormatter does not support SVGs":
-                "https://www.drupal.org/files/issues/2652138-41.patch",
                 "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
                 "https://www.drupal.org/files/issues/1356276-360.patch",
                 "2880374 - Experimental modules should not have warnings after being installed":
@@ -105,7 +103,7 @@
     },
     "require": {
         "cweagans/composer-patches": "^1.5.0",
-        "drupal/core": "~8.3.1",
+        "drupal/core": "~8.4.0",
         "drupal.project/media_management_complex": "*",
         "drupal/config_filter": "*",
         "drupal/config_update": "^1.1",
