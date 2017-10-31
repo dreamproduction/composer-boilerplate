@@ -95,7 +95,27 @@
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
-                "https://www.drupal.org/files/issues/2885441-2.patch"
+                "https://www.drupal.org/files/issues/2885441-2.patch",
+                "2652850 - Title for details form elements ...":
+                "https://www.drupal.org/files/issues/title_for_details_form-2652850-30.patch",
+                "2745491 - ImageWidget::validateRequiredFields() produces a PHP Warning message if triggering element is a non-button":
+                "https://www.drupal.org/files/issues/2745491-15.patch"
+            },
+            "drupal/video": {
+                "Missing type for video source.":
+                "https://www.drupal.org/files/issues/video-missing-source-type-2893473-3-8.1.2.patch"
+            },
+            "drupal/entity_embed": {
+                "2832504 - Send the CKEditor instance ID to the embed.preview route":
+                "https://www.drupal.org/files/issues/2832504-2.patch"
+            },
+            "drupal/entity_browser": {
+                "2865928 - The View widget should filter based on field settings":
+                "https://www.drupal.org/files/issues/entity-browser-view-context-2865928-14.patch",
+                "2721665 - Problems with multilingual entities":
+                "https://www.drupal.org/files/issues/entity_browser-problems-with-multilingual-2721665-27.patch",
+                "2899792 - Notice from ImageWidget::validateRequiredFields after saving":
+                "https://www.drupal.org/files/issues/entity-browser-image-widget-conflict-28997922-2-D8.patch"
             }
         }
     },
