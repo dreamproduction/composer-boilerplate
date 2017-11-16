@@ -125,6 +125,7 @@
         "cweagans/composer-patches": "^1.5.0",
         "drupal/core": "~8.4.0",
         "drupal.project/media_management_complex": "*",
+        "drupal/config_rewrite": "^1.1",
         "drupal/config_filter": "*",
         "drupal/config_update": "^1.1",
         "drupal/metatag": "^1.0",
@@ -134,6 +135,7 @@
         "drupal/contact_storage": "^1.0",
         "drupal/diff": "^1.0",
         "oomphinc/composer-installers-extender": "^1.1",
-        "drupal/seckit": "^1.0.0-alpha2"
+        "drupal/seckit": "^1.0.0-alpha2",
+        "drupal/views_entity_translations_links": "^1.1"
     }
 }
