@@ -133,6 +133,6 @@
         "drupal/contact_storage": "^1.0",
         "drupal/diff": "^1.0",
         "oomphinc/composer-installers-extender": "^1.1",
-        "drupal.project/views_entity_translations_links": "dev-master"
+        "drupal.project/views_entity_translation_links": "dev-master"
     }
 }
