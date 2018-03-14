@@ -120,11 +120,14 @@
             "acquia/blt": {
                 "Restricts PHPCS to check for modified files only" :
                 "https://patch-diff.githubusercontent.com/raw/acquia/blt/pull/2126.patch"
+            },
+            "cweagans/composer-patches": {
+              "Allows patch-level to be specified per-project.": "https://patch-diff.githubusercontent.com/raw/cweagans/composer-patches/pull/189.diff"
             }
         }
     },
     "require": {
-        "cweagans/composer-patches": "^1.5.0",
+        "cweagans/composer-patches": "^1.6.4",
         "drupal/core": "~8.4.0",
         "drupal.project/media_management_complex": "*",
         "drupal/config_update": "^1.1",
