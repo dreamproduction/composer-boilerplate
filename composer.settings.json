@@ -26,9 +26,11 @@
     "scripts": {
         "post-install-cmd": [
             "@composer run-script drupal-scaffold",
-	    "@composer run-script checkout-htaccess"
+	    "@composer run-script checkout-htaccess",
+	    "@composer run-script checkout-robotos"
         ],
 	"checkout-htaccess": "git checkout docroot/.htaccess",
+	"checkout-robots": "git checkout docroot/robots.txt",
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "blt-alias": "blt install-alias -y --ansi",
         "nuke": [
