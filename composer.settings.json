@@ -27,7 +27,7 @@
         "post-install-cmd": [
             "@composer run-script drupal-scaffold",
 	    "@composer run-script checkout-htaccess",
-	    "@composer run-script checkout-robotos"
+	    "@composer run-script checkout-robots"
         ],
 	"checkout-htaccess": "git checkout docroot/.htaccess",
 	"checkout-robots": "git checkout docroot/robots.txt",
