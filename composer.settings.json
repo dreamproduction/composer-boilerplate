@@ -105,7 +105,7 @@
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
-                "https://www.drupal.org/files/issues/video-missing-source-type-2893473-3-8.1.2.patch"
+                "https://www.drupal.org/files/issues/2018-04-17/video-2.x-missing-source_0.patch"
             },
             "drupal/entity_embed": {
                 "2832504 - Send the CKEditor instance ID to the embed.preview route":
