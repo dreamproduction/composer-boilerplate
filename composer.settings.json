@@ -138,6 +138,7 @@
         "drupal/diff": "^1.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal.project/views_entity_translation_links": "*",
-        "drupal.project/dp_misc": "*"
+        "drupal.project/dp_misc": "*",
+        "drupal.project/drp_search": "*"
     }
 }
