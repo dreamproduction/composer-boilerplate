@@ -88,20 +88,16 @@
         },
         "patches": {
             "drupal/core": {
-                "736066 - ajax.js insert command sometimes wraps content in a div, potentially producing invalid HTML and other bugs":
-                "https://www.drupal.org/files/issues/2018-03-14/736066-296-328.patch",
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
-                "https://www.drupal.org/files/issues/manytoonehelper_ignores-2559961-29-8.3.x.patch",
+                "https://www.drupal.org/files/issues/2018-08-02/manytoonehelper_ignores-2559961-44-8.5.x.patch",
                 "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/drupal-n1356276-417-d8.5.x.patch",
+                "https://www.drupal.org/files/issues/2018-07-12/1356276-473.patch",
                 "2880374 - Experimental modules should not have warnings after being installed":
-                "https://www.drupal.org/files/issues/2880374-remove-experimental-warnings-6.patch",
+                "https://www.drupal.org/files/issues/2018-06-05/2880374-21.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
-                "https://www.drupal.org/files/issues/2885441-12.patch",
-                "2652850 - Title for details form elements ...":
-                "https://www.drupal.org/files/issues/2652850-40.patch"
+                "https://www.drupal.org/files/issues/2885441-12.patch"
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
