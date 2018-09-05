@@ -97,7 +97,9 @@
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
-                "https://www.drupal.org/files/issues/2885441-12.patch"
+                "https://www.drupal.org/files/issues/2885441-12.patch",
+                "2693727 - Limiting options for exposed Language filters causes errors and doesn't work for special languages":
+                "https://www.drupal.org/files/issues/2693727-31.drupal.Limiting-options-for-exposed-Language-filters-causes-errors-and-doesnt-work-for-special-languages.patch"
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
