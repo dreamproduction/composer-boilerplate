@@ -114,10 +114,6 @@
                 "https://www.drupal.org/files/issues/2018-06-08/entity_browser-problems-with-multilingual-2721665-36.patch",
                 "2899792 - Notice from ImageWidget::validateRequiredFields after saving":
                 "https://www.drupal.org/files/issues/entity-browser-image-widget-conflict-28997922-2-D8.patch"
-            },
-            "acquia/blt": {
-                "Restricts PHPCS to check for modified files only" :
-                "https://patch-diff.githubusercontent.com/raw/acquia/blt/pull/2126.patch"
             }
         }
     },
