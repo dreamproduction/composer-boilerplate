@@ -99,7 +99,13 @@
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
                 "https://www.drupal.org/files/issues/2885441-12.patch",
                 "2693727 - Limiting options for exposed Language filters causes errors and doesn't work for special languages":
-                "https://www.drupal.org/files/issues/2693727-31.drupal.Limiting-options-for-exposed-Language-filters-causes-errors-and-doesnt-work-for-special-languages.patch"
+                "https://www.drupal.org/files/issues/2693727-31.drupal.Limiting-options-for-exposed-Language-filters-causes-errors-and-doesnt-work-for-special-languages.patch",
+                "2698057 - Add support for <nolink>, <none> and empty values to the UI.":
+                "https://www.drupal.org/files/issues/2018-08-05/add_nolink_support-2698057-26.patch",
+                "2838351 - Links with no path get active class on front page":
+                "https://www.drupal.org/files/issues/2018-05-09/links_with_no_path_get-2838351-19.patch",
+                "2695207 - Text (plain, long) field is not click sortable and does not appear in combine fields filter":
+                "https://www.drupal.org/files/issues/2695207-25.patch"
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
