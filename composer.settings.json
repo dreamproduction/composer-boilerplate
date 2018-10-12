@@ -111,7 +111,9 @@
                 "2778345 - Views argument validators aren't taken into account on access checks - local task point to 404":
                 "https://www.drupal.org/files/issues/2018-08-15/views-args-access-2778345-28.patch",
                 "2454289 - Attribute hreflang not allowed on element li at this point":
-                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch"
+                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch",
+                "2892368 - editor.module's hook_entity_update() does not count file usages correctly when adding/removing images without creating new revisions":
+                "https://www.drupal.org/files/issues/2892368-5.patch"
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
