@@ -109,7 +109,9 @@
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
                 "https://www.drupal.org/files/issues/2018-08-22/1091852-77.patch",
                 "2778345 - Views argument validators aren't taken into account on access checks - local task point to 404":
-                "https://www.drupal.org/files/issues/2018-08-15/views-args-access-2778345-28.patch"
+                "https://www.drupal.org/files/issues/2018-08-15/views-args-access-2778345-28.patch",
+                "2454289 - Attribute hreflang not allowed on element li at this point":
+                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch"
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
