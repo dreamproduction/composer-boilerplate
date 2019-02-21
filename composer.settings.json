@@ -106,8 +106,6 @@
                 "https://www.drupal.org/files/issues/2018-11-09/2695207-31.patch",
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
                 "https://www.drupal.org/files/issues/2018-11-08/1091852-80.patch",
-                "2778345 - Views argument validators aren't taken into account on access checks - local task point to 404":
-                "https://www.drupal.org/files/issues/2018-08-15/views-args-access-2778345-28.patch",
                 "2454289 - Attribute hreflang not allowed on element li at this point":
                 "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch",
                 "2892368 - editor.module's hook_entity_update() does not count file usages correctly when adding/removing images without creating new revisions":
@@ -119,9 +117,7 @@
             },
             "drupal/entity_embed": {
                 "2832504 - Send the CKEditor instance ID to the embed.preview route":
-                "https://www.drupal.org/files/issues/2832504-2.patch",
-                "2640398 - Allow <drupal-entity> elements to be inline CKEditor Widgets.":
-                "https://www.drupal.org/files/issues/2018-08-30/entity_embed-inline-widgets-2640398-32.patch"
+                "https://www.drupal.org/files/issues/2832504-2.patch"
             },
             "drupal/entity_browser": {
                 "2865928 - The View widget should filter based on field settings":
