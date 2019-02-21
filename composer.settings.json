@@ -91,23 +91,21 @@
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
                 "https://www.drupal.org/files/issues/2018-08-02/manytoonehelper_ignores-2559961-44-8.5.x.patch",
                 "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/2018-07-12/1356276-473.patch",
+                "https://www.drupal.org/files/issues/2018-12-10/1356276-572.patch",
                 "2880374 - Experimental modules should not have warnings after being installed":
                 "https://www.drupal.org/files/issues/2018-06-05/2880374-21.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
                 "https://www.drupal.org/files/issues/2885441-12.patch",
-                "2693727 - Limiting options for exposed Language filters causes errors and doesn't work for special languages":
-                "https://www.drupal.org/files/issues/2693727-31.drupal.Limiting-options-for-exposed-Language-filters-causes-errors-and-doesnt-work-for-special-languages.patch",
                 "2698057 - Add support for <nolink>, <none> and empty values to the UI.":
                 "https://www.drupal.org/files/issues/2018-08-05/add_nolink_support-2698057-26.patch",
                 "2838351 - Links with no path get active class on front page":
                 "https://www.drupal.org/files/issues/2018-05-09/links_with_no_path_get-2838351-19.patch",
                 "2695207 - Text (plain, long) field is not click sortable and does not appear in combine fields filter":
-                "https://www.drupal.org/files/issues/2695207-25.patch",
+                "https://www.drupal.org/files/issues/2018-11-09/2695207-31.patch",
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
-                "https://www.drupal.org/files/issues/2018-08-22/1091852-77.patch",
+                "https://www.drupal.org/files/issues/2018-11-08/1091852-80.patch",
                 "2778345 - Views argument validators aren't taken into account on access checks - local task point to 404":
                 "https://www.drupal.org/files/issues/2018-08-15/views-args-access-2778345-28.patch",
                 "2454289 - Attribute hreflang not allowed on element li at this point":
