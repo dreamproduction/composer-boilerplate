@@ -98,20 +98,12 @@
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
                 "https://www.drupal.org/files/issues/2885441-12.patch",
-                "2693727 - Limiting options for exposed Language filters causes errors and doesn't work for special languages":
-                "https://www.drupal.org/files/issues/2693727-31.drupal.Limiting-options-for-exposed-Language-filters-causes-errors-and-doesnt-work-for-special-languages.patch",
                 "2698057 - Add support for <nolink>, <none> and empty values to the UI.":
-                "https://www.drupal.org/files/issues/2018-08-05/add_nolink_support-2698057-26.patch",
-                "2838351 - Links with no path get active class on front page":
-                "https://www.drupal.org/files/issues/2018-05-09/links_with_no_path_get-2838351-19.patch",
-                "2695207 - Text (plain, long) field is not click sortable and does not appear in combine fields filter":
-                "https://www.drupal.org/files/issues/2018-11-09/2695207-31.patch",
+                "https://www.drupal.org/files/issues/2019-05-06/add_nolink_support-2698057-47.patch",
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
                 "https://www.drupal.org/files/issues/2018-11-08/1091852-80.patch",
                 "2454289 - Attribute hreflang not allowed on element li at this point":
-                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch",
-                "2892368 - editor.module's hook_entity_update() does not count file usages correctly when adding/removing images without creating new revisions":
-                "https://www.drupal.org/files/issues/2892368-5.patch"
+                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch"
             },
             "drupal/video": {
                 "2893473 - Missing type for video source.":
@@ -122,8 +114,6 @@
                 "https://www.drupal.org/files/issues/2832504-2.patch"
             },
             "drupal/entity_browser": {
-                "2865928 - The View widget should filter based on field settings":
-                "https://www.drupal.org/files/issues/entity-browser-view-context-2865928-14.patch",
                 "2721665 - Problems with multilingual entities":
                 "https://www.drupal.org/files/issues/2018-06-08/entity_browser-problems-with-multilingual-2721665-36.patch",
                 "2899792 - Notice from ImageWidget::validateRequiredFields after saving":
