@@ -91,7 +91,7 @@
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
                 "https://www.drupal.org/files/issues/2018-08-02/manytoonehelper_ignores-2559961-44-8.5.x.patch",
                 "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/2018-10-23/1356276-549-8.6.x.patch",
+                "https://www.drupal.org/files/issues/2018-12-10/1356276-572.patch",
                 "2880374 - Experimental modules should not have warnings after being installed":
                 "https://www.drupal.org/files/issues/2018-06-05/2880374-21.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
