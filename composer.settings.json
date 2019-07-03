@@ -55,37 +55,6 @@
             "bower-asset",
             "npm-asset"
         ],
-        "installer-paths": {
-            "docroot/core": [
-                "type:drupal-core"
-            ],
-            "docroot/modules/contrib/{$name}": [
-                "type:drupal-module"
-            ],
-            "docroot/modules/custom/{$name}": [
-                "type:drupal-custom-module"
-            ],
-            "docroot/profiles/contrib/{$name}": [
-                "type:drupal-profile"
-            ],
-            "docroot/profiles/custom/{$name}": [
-                "type:drupal-custom-profile"
-            ],
-            "docroot/themes/contrib/{$name}": [
-                "type:drupal-theme"
-            ],
-            "docroot/themes/custom/{$name}": [
-                "type:drupal-custom-theme"
-            ],
-            "docroot/libraries/{$name}": [
-                "type:drupal-library",
-                "type:bower-asset",
-                "type:npm-asset"
-            ],
-            "drush/contrib/{$name}": [
-               "type:drupal-drush"
-            ]
-        },
         "patches": {
             "drupal/core": {
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
@@ -113,7 +82,9 @@
                 "2721665 - Problems with multilingual entities":
                 "https://www.drupal.org/files/issues/2018-06-08/entity_browser-problems-with-multilingual-2721665-36.patch",
                 "2899792 - Notice from ImageWidget::validateRequiredFields after saving":
-                "https://www.drupal.org/files/issues/entity-browser-image-widget-conflict-28997922-2-D8.patch"
+                "https://www.drupal.org/files/issues/entity-browser-image-widget-conflict-28997922-2-D8.patch",
+                "2939481 - Resetting an entity browser exposed filters loads the upload tab":
+                "https://www.drupal.org/files/issues/2019-04-29/entity_browser-fix-for-reset-2939481-7-8.6.patch"
             }
         }
     },
