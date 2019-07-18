@@ -80,7 +80,7 @@
             },
             "drupal/entity_browser": {
                 "2721665 - Problems with multilingual entities":
-                "https://www.drupal.org/files/issues/2018-06-08/entity_browser-problems-with-multilingual-2721665-36.patch",
+                "https://www.drupal.org/files/issues/2019-07-06/entity_browser-problems-with-multilingual-2721665-46.patch",
                 "2899792 - Notice from ImageWidget::validateRequiredFields after saving":
                 "https://www.drupal.org/files/issues/entity-browser-image-widget-conflict-28997922-2-D8.patch",
                 "2939481 - Resetting an entity browser exposed filters loads the upload tab":
