@@ -72,7 +72,9 @@
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
                 "https://www.drupal.org/files/issues/2018-11-08/1091852-80.patch",
                 "2454289 - Attribute hreflang not allowed on element li at this point":
-                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch"
+                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch",
+                "2884296 - Undefined index notice on empty exposed filter text inputs in views":
+                "https://www.drupal.org/files/issues/filterpluginbase-filter-notices.patch"
             }
         }
     },
