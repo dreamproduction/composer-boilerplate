@@ -74,7 +74,9 @@
                 "2454289 - Attribute hreflang not allowed on element li at this point":
                 "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch",
                 "2884296 - Undefined index notice on empty exposed filter text inputs in views":
-                "https://www.drupal.org/files/issues/filterpluginbase-filter-notices.patch"
+                "https://www.drupal.org/files/issues/filterpluginbase-filter-notices.patch",
+                "2429699 - Generalize TaxonomyIndexTid filter to be available for all entity reference fields":
+                "https://www.drupal.org/files/issues/2019-10-04/drupal-n2429699-232-87x.patch"
             }
         }
     },
