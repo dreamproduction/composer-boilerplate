@@ -65,8 +65,6 @@
                 "https://www.drupal.org/files/issues/2018-06-05/2880374-21.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
-                "2885441 - EntityReferenceAutocompleteWidget should define its size setting as an integer":
-                "https://www.drupal.org/files/issues/2885441-12.patch",
                 "2698057 - Add support for <nolink>, <none> and empty values to the UI.":
                 "https://www.drupal.org/files/issues/2019-05-06/add_nolink_support-2698057-47.patch",
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
