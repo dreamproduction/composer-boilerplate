@@ -58,19 +58,19 @@
         "patches": {
             "drupal/core": {
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
-                "https://www.drupal.org/files/issues/2018-08-02/manytoonehelper_ignores-2559961-44-8.5.x.patch",
+                "https://www.drupal.org/files/issues/2019-12-06/2559961-90.patch",
                 "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/2019-12-02/core-1356276-598-89x.patch",
+                "https://www.drupal.org/files/issues/2019-12-27/1356276-88x-603.patch",
                 "2880374 - Experimental modules should not have warnings after being installed":
-                "https://www.drupal.org/files/issues/2019-12-09/drupal_experimental_modules_warnings_2880374-25_0.patch",
+                "https://www.drupal.org/files/issues/2019-12-19/2880374-30.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
-                "https://www.drupal.org/files/issues/2018-11-08/1091852-80.patch",
+                "https://www.drupal.org/files/issues/2019-11-19/1091852-104.patch",
                 "2454289 - Attribute hreflang not allowed on element li at this point":
-                "https://www.drupal.org/files/issues/2018-10-01/hreflang_attribute_not-2454289-51.patch",
+                "https://www.drupal.org/files/issues/2019-06-12/2454289-94_0.patch",
                 "2429699 - Generalize TaxonomyIndexTid filter to be available for all entity reference fields":
-                "https://www.drupal.org/files/issues/2019-11-28/2429699-253.patch"
+                "https://www.drupal.org/files/issues/2020-02-08/drupal-generalize-taxonomyindextid-filter-2429699-297.patch"
             }
         }
     },
