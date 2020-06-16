@@ -26,11 +26,11 @@
     "scripts": {
         "post-install-cmd": [
             "@composer run-script drupal-scaffold",
-	        "@composer run-script checkout-htaccess",
-	        "@composer run-script checkout-robots"
+            "@composer run-script checkout-htaccess",
+            "@composer run-script checkout-robots"
         ],
-	    "checkout-htaccess": "git checkout docroot/.htaccess",
-	    "checkout-robots": "git checkout docroot/robots.txt",
+        "checkout-htaccess": "git checkout docroot/.htaccess",
+        "checkout-robots": "git checkout docroot/robots.txt",
         "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
         "blt-alias": "blt install-alias --ansi",
         "nuke": [
@@ -51,7 +51,7 @@
                 "sites/default/default.settings.php": "sites/default/settings.php"
             }
         },
-         "installer-types": [
+        "installer-types": [
             "bower-asset",
             "npm-asset"
         ],
@@ -74,17 +74,15 @@
     },
     "require": {
         "cweagans/composer-patches": "^1.5.0",
-        "drupal/core": "^8.6.0-beta2",
+        "drupal/core": "^9.0.0",
         "drupal.project/media_management_complex": "*",
         "drupal/config_update": "^1.1",
         "drupal/metatag": "^1.0",
         "drupal/token": "^1.0",
         "drupal/pathauto": "^1.0",
-        "drupal/contact_storage": "^1.0",
         "drupal/diff": "^1.0",
         "oomphinc/composer-installers-extender": "^1.1",
         "drupal.project/views_entity_translation_links": "*",
-        "drupal.project/dp_misc": "*",
-        "drupal.project/drp_search": "*"
+        "drupal.project/dp_misc": "*"
     }
 }
