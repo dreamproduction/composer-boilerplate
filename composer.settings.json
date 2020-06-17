@@ -59,14 +59,8 @@
             "drupal/core": {
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
                 "https://www.drupal.org/files/issues/2019-12-06/2559961-90.patch",
-                "1356276 - Allow profiles to provide a base/parent profile and load them in the correct order":
-                "https://www.drupal.org/files/issues/2019-12-27/1356276-88x-603.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
                 "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
-                "1091852 - Display Bug when using #states (Forms API) with Ajax Request":
-                "https://www.drupal.org/files/issues/2019-11-19/1091852-104.patch",
-                "2454289 - Attribute hreflang not allowed on element li at this point":
-                "https://www.drupal.org/files/issues/2019-06-12/2454289-94_0.patch",
                 "2429699 - Generalize TaxonomyIndexTid filter to be available for all entity reference fields":
                 "https://www.drupal.org/files/issues/2020-02-08/drupal-generalize-taxonomyindextid-filter-2429699-297.patch"
             }
