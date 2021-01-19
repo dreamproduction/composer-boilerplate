@@ -58,11 +58,11 @@
         "patches": {
             "drupal/core": {
                 "2559961 - ManyToOneHelper ignores group configuration for some cases and forces INNER joins":
-                "https://www.drupal.org/files/issues/2019-12-06/2559961-90.patch",
+                  "https://www.drupal.org/files/issues/2019-12-06/2559961-90.patch",
                 "2869592 - Disabled update module shouldn't produce a status report warning":
-                "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
+                  "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                 "2429699 - Generalize TaxonomyIndexTid filter to be available for all entity reference fields":
-                "https://www.drupal.org/files/issues/2020-02-08/drupal-generalize-taxonomyindextid-filter-2429699-297.patch"
+                  "https://www.drupal.org/files/issues/2020-10-27/drupal-views-entity-reference-filter-2429699-371.patch"
             }
         }
     },
