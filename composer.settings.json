@@ -16,7 +16,7 @@
         },
         {
             "type": "composer",
-            "url": "http://packages.dreamproduction.com"
+            "url": "https://dreamproduction.repo.repman.dreamproduction.net"
         },
         {
             "type": "composer",
